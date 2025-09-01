@@ -66,7 +66,7 @@ function App() {
       <h1>0gm Counter</h1>
 
       <img
-        src="/0G PANDA.jpeg"
+        src="/0G_PANDA.jpeg"
         alt="0G Panda"
         style={{
           width: "100%", // full width of the container
