@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Footer from './Footer';  // Adjust path if needed
+
 
 function App() {
   const [twitterHandle, setTwitterHandle] = useState("");
@@ -133,9 +135,12 @@ function App() {
           </a>
         </div>
       )}
+
+      <Footer /> {/* Footer is outside the conditional rendering block */}
     </div>
   );
 }
+
 
 export default App;
 
