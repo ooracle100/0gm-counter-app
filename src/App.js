@@ -7,7 +7,7 @@ function App() {
   const [result, setResult] = useState(null);
   const [fact, setFact] = useState(null);
 
-  const YOUR_TWITTER_PROFILE_LINK = "https://twitter.com/itz_tentebo";
+  const YOUR_TWITTER_PROFILE_LINK = "https://x.com/itz_tentebo/status/1962612157524185474";
 
   const jokeMessages = [
     (handle, count) => `Whoa @${handle}, ${count} 0gms recorded! 🤫 But shhh... is it real? Keep the mystery alive, share the link and let others see their own count!`,
